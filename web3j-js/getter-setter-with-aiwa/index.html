@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Getter Setter with Aiwa</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/marx.min.css">
+</head>
+
+<body>
+    <header>
+        <center>
+            <h1>Getter Setter with Aiwa</h1>
+        </center>
+    </header>
+    <main>
+        <section>
+            <h2>Get String</h2>
+            <p>
+                Click here to view the <code>myStr</code> variable from the
+                <code>HelloAvm.java</code> contract.
+            </p>
+            <button onclick="getString()">Get String</button>
+            <code><h3 id="string_output"></h3></code>
+            <p>
+                Last updated (Unix Time):
+                <code id="last_updated_code">0</code>
+            </p>
+        </section>
+        <hr>
+        <section>
+            <h2>Set String</h2>
+            <p>
+                Enter a new string for the <code>myStr</code> variable in
+                the <code>HelloAvm.java</code> contract, and click the
+                button to set it.
+            </p>
+            <input placeholder="Put your message here." id="string_input" />
+            <button id="set_string_button" onclick="setString()">Set String</button>
+        </section>
+    </main>
+    <footer>
+        <p>For more info, check out the <a href="https://docs.aion.network">Aion Docs</a>.</p>
+        <p>&copy; 2019 &middot; <a href="https://aion.foundation">Aion Foundation</a></p>
+    </footer>
+</body>
+<script src="assets/js/web3.min.js"></script>
+<script src="assets/js/script.js"></script>
+
+</html>
