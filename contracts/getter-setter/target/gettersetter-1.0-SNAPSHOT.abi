@@ -1,5 +1,0 @@
-1
-docsexample.HelloAvm
-Clinit: ()
-public static String getString()
-public static void setString(String)
