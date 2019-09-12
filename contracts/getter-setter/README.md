@@ -1,10 +1,10 @@
 # Getter Setter
 
-This project is a simple _getter-setter_ blockchain application written using IntelliJ and the Aion4j plugin..
+This project is a simple _getter-setter_ blockchain application written using IntelliJ and the Aion4j plugin.
 
 ## Setup
 
-You can import the project directly into IntelliJ. Use the [Import a Project](https://docs.aion.network/docs/tools-intellij-plugin-import-a-project) guide.
+The easiest way to import this project is to create a new project using either the IntelliJ Plugin or Maven CLI. Once you have a base project setup, copy and paste both the `GetterSetter.java` and `GetterSetterTest.java` files into your project. You will also likely have to change the `package aionexample;` lines and your `pom.xml` file.
 
 ## Explanation
 
