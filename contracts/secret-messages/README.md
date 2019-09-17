@@ -1,4 +1,4 @@
-# Getter Setter
+# Secret Messages
 
 Send secret messages to users using a secret key. This project is incredibly simple and does not follow industry-standard security protocols. This project should only be used as an explanation on using modifiers and arguments.
 
